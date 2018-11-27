@@ -25,4 +25,10 @@ public class HelloController {
         }
     }
 
+    @GetMapping(value = "/hss")
+    public Object hello1(){
+        logger.info("huanglijun test success...");
+        return "test ok";
+    }
+
 }
